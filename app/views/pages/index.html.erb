@@ -1,0 +1,105 @@
+
+<div class="section info jumbotron">
+  <div class="row container">
+    <div class = row>
+      <div class="col s12 m12 center">
+        <h1 class="jumbotron-header">#Robot</h1>
+        <h5>Great content deserves to be #noticed.</h5>
+        <% if current_user %>
+          <%= link_to 'Log Out', logout_path, method: :delete, 'class' => 'waves-effect waves-light btn-large welcome-btn' %>
+          <%= link_to '#board', hashboard_path, 'class' => 'waves-effect waves-light btn-large welcome-btn' %>
+        <% else %>
+          <%= button_tag(:class => 'waves-effect waves-light btn-large welcome-btn') do %>
+            <a href="/auth/twitter">Login with Twitter</a>
+          <% end %>
+        <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="parallax-container parallax-container-1">
+  <div class="parallax"><%=	image_tag 'colorful-robots-sm.jpg' %></div>
+</div>
+
+<div class="section info">
+  <h4 class="main_title center">Make a big impact with your social media content.</h4>
+     <div class ="row center">
+       <div class="col s12 m4 l4">
+         <i class="large material-icons">trending_up</i>
+         <h5 class="main_title">Goal</h5>
+             <p class="about">#Robot is your personal marketing consultant.
+               <br><br>#Robot will give the most visible and used hashtags in each category. Adding these hashtags to your tweets will give social media users an edge in getting views and gaining followers.
+               <br><br>#Robot makes it easy for you to tweet right from our hash dash!
+             </p>
+       </div>
+       <div class="col s12 m4 l4">
+         <i class="large material-icons">track_changes</i>
+         <h5 class="main_title">Design</h5>
+             <p class="about"> #Robot is designed to process large numbers of current and popular tweets from Twitter's API.
+                 #Robot then passes them to the MonkeyLearn API to gain data and relevant categories for a each tweet.
+                 #Robot reivews the results applies its proprietary algorithm then finds the most valuable hash tags for a each category at a given moment.
+               <br> <br> These hashtags can then be used to raise your social media profile!
+             </p>
+       </div>
+       <div class="col s12 m4 l4">
+        <i class="large material-icons">web</i>
+          <h5 class="main_title">Architecture</h5>
+              <ul class="about">
+                <li>Language processing via <a href="http://monkeylearn.com/">MonkeyLearn</a></li>
+                <li>Data from <a href="https://twitter.com/">Twitter</a></li>
+                <li>Hosted on <a href="https://www.heroku.com/">Heroku</a></li>
+                <li>Built on <a href="http://rubyonrails.org/">Rails</a> and a bit of <a href="https://jquery.com/">jQuery</a></li>
+                <li><a href="http://materializecss.com/">Materialize</a> for CSS</li>
+                <li>Icons from <a href="https://fortawesome.github.io/Font-Awesome/icons/">Font Awesome</a></li>
+                <li>Fonts from <a href="https://www.google.com/fonts">Google fonts</a></li>
+                <li>Check us out on <a href="https://github.com/rysmith/hashrobot">GitHub</a></li>
+              </ul>
+        </div>
+      </div>
+  </div>
+</div>
+
+<div class="parallax-container">
+  <div class="parallax"><%=	image_tag 'creators_bg.png' %></div>
+</div>
+
+<div class="parallax-container pictures">
+  <div class="section">
+    <div class="row container">
+      <div class="row">
+        <div class="col s12 center about">
+          <h2 class="main_title">Creators</h2>
+          <h5>
+            Conceived and created during General Assembly's 12-week <a href="https://generalassemb.ly/education/web-development-immersive/los-angeles">WDI</a> program.
+          </h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m4 center">
+          <div class="creators">
+            <a href="https://www.linkedin.com/in/jeffreydemers"><%= image_tag "jeff_head.png" %></a>
+            <h4><a href="https://www.linkedin.com/in/jeffreydemers">Jeff Demers</a></h4>
+          </div>
+        </div>
+        <div class="col s12 m4 center">
+          <div class="creators">
+            <a href="http://ryansmith.io/"><%= image_tag "ryan_head.png" %></a>
+            <h4><a href="http://ryansmith.io/">Ryan Smith</a></h4>
+          </div>
+        </div>
+        <div class="col s12 m4 center">
+          <div class="creators">
+            <a href="https://wakarana1.github.io"><%= image_tag "chris_head.png" %></a>
+            <a href="https://wakarana1.github.io"><h4>Chris Wu</a></h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="parallax-container  parallax-container-1">
+  <div class="parallax"><%=	image_tag 'colorful-robots-sm.jpg' %></div>
+</div>

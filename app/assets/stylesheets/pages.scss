@@ -1,0 +1,136 @@
+.top {
+  background: #00B4BF;
+}
+
+.creators {
+  background: black;
+  border: 5px solid #00B4BF;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-position: center center; // Center image in the circle
+  padding-top: 20px;
+  margin-left: 50px;
+}
+
+.tag-results .card {
+  padding: 5px;
+  text-align: center;
+  background: #8E2A92;
+  color: white;
+}
+
+.creators h4 {
+  margin-top: 50px;
+}
+
+.material-icons {
+  color: white;
+}
+
+#category-dropdown {
+  display: block;
+}
+
+.tweet-box {
+  margin-top: 200px;
+}
+
+.tag-results {
+  width: 200px;
+}
+
+.welcome-btn > a {
+  color: white;
+}
+
+.parallax-container-0 {
+  height: 100px !important;
+}
+
+.parallax-container-1 {
+  height: 300px !important;
+}
+
+.about{
+  color: white;
+  font-size: 20px;
+}
+
+.main_title{
+  color: white;
+}
+
+.info {
+  background-color: #FC8E2D;
+}
+
+.jumbotron {
+  background-color: #00B4BF;
+}
+
+.jumbotron-header, h4, h2, h3 {
+  font-family: 'Play', sans-serif;
+}
+
+h5, p, a  {
+  font-family: 'Exo', sans-serif;
+}
+
+.middle-robot-img {
+  margin: 0px 50px 0px 50px;
+}
+
+#robot-jeff {
+  background-image: url("robot_jeff.png");
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  background-color: white;
+  border-radius: 174px;
+  margin-top: 30px;
+  background-position: 48% 0%;
+}
+#robot-ryan {
+  background-image: url("robot_ryan.png");
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  background-color: white;
+  border-radius: 174px;
+  margin-top: 30px;
+  background-position: 48% 0%;
+
+}
+#robot-chris {
+  background-image: url("robot_chris.png");
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  background-color: white;
+  border-radius: 174px;
+  margin-top: 30px;
+  background-position: 48% 0%;
+}
+
+.pictures {
+  background-color: #8E2A92;
+  color: white;
+}
+
+.tag-results .card {
+  margin: 5px;
+  display: inline-block;
+}
+
+.tag-results {
+  display: inline-block;
+  overflow: auto;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.creators h4 a {
+  color: white;
+  text-decoration: underline;
+}

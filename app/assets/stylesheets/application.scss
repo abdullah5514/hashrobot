@@ -1,0 +1,91 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
+@import "materialize/components/color";
+$primary-color: #FC8E2D !default;
+$secondary-color: #8E2A92;
+@import 'materialize';
+@import url(http://fonts.googleapis.com/css?family=Poiret+One|Exo|Play|Orbitron|Varela|Jura);
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.about a {
+  color: white;
+  text-decoration: underline;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.btn {
+  background-color: $primary-color;
+}
+
+.btn:hover {
+  background: $secondary-color;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+div.scroll {
+  background-color: lightgrey;
+  height: 200px;
+  overflow: scroll;
+}
+
+footer.page-footer {
+  margin-top: 0;
+
+}
+
+#nav-mobile {
+  padding-top: 7px;
+}
+
+nav {
+  height: 80px;
+  background-color: #05AAB4;
+  padding-top: 7px;
+  padding-bottom: 3px;
+}
+
+footer.page-footer {
+  background-color: #00B4BF;
+}
+
+.nav-logout-link {
+  margin-right: 10px;
+}
+
+.user-image {
+  border-radius: 10px;
+}
+
+footer a {
+  margin: 5px;
+}
